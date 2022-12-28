@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My website</title>
+
+    <style>
+        h1 {
+            font-style: italic;
+            font-family: Arial;
+            color: aqua
+        }
+
+        body {
+            color: black;
+        }
+
+        p {
+            color: red;
+            font-family: 'Agency FB';
+        }
+
+        #message {
+            border: 15px solid aqua;
+        }
+
+    </style>
+</head>
+<body onload="load()">
+
+    <script src="index.js" type="text/javascript"></script>
+
+    <h1>Hello there and welcome to my website i made</h1>
+    <p>This is a test project made by james so have fun</p>
+    <div id="message" style="overflow:scroll; height:400px;" ></div>
+
+        <div style="display: inline">
+            <input type="text" name="UsernameBox" value="" id="UsernameBox" />
+            <input type="text" name="MessageBox" value="" id="MessageBox" />
+            <input type="button" id="Send button" value="Send" onclick="send()" />
+        </div>
+</body>
+</html>
